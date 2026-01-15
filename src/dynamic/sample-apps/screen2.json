@@ -1,0 +1,18 @@
+{
+  "id": "screen2",
+  "type": "Screen",
+  "components": [
+    {
+      "id": "text2",
+      "type": "Text",
+      "value": "Welcome to Screen 2!",
+      "style": { "fontSize": 24, "color": "#000", "textAlign": "center", "marginTop": 60 }
+    },
+    {
+      "id": "btn2",
+      "type": "Button",
+      "title": "Go to Screen 3",
+      "navigateTo": "screen3"
+    }
+  ]
+}

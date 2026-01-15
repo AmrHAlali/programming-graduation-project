@@ -1,0 +1,24 @@
+{
+  "id": "app_1",
+  "name": "My Dynamic App",
+  "mainScreen": "screen1",
+  "screens": [
+    {
+      "id": "screen1",
+      "source": "local:screen1"
+    },
+    {
+      "id": "screen2",
+      "source": "local:screen2"
+    },
+    {
+      "id": "screen3",
+      "source": "local:screen3"
+    }
+  ],
+  "config": {
+    "themeColor": "#6200ee",
+    "backgroundColor": "white",
+    "apiBaseUrl": "http://localhost:3000/api/"
+  }
+}

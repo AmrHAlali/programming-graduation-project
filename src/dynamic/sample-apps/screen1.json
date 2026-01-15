@@ -1,0 +1,87 @@
+{
+  "id": "screen1",
+  "type": "Screen",
+  "components": [
+    {
+      "id": "btn",
+      "type": "Button",
+      "title": "Start Countdown",
+      "onPress": {
+        "type": "sequence",
+        "actions": [
+          {
+            "type": "toast",
+            "message": "3..."
+          },
+          {
+            "type": "delay",
+            "ms": 1000,
+            "next": {
+              "type": "toast",
+              "message": "2..."
+            }
+          },
+          {
+            "type": "delay",
+            "ms": 2000,
+            "next": {
+              "type": "toast",
+              "message": "1..."
+            }
+          },
+          {
+            "type": "delay",
+            "ms": 3000,
+            "next": {
+              "type": "alert",
+              "title": "Go!"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "title",
+      "type": "Text",
+      "value": {
+        "en": "Guess the number (1–5)"
+      }
+    },
+    {
+      "id": "btn1",
+      "type": "Button",
+      "title": "1",
+      "onPress": {
+        "type": "custom",
+        "callbackName": "guessNumber",
+        "args": {
+          "value": 1
+        }
+      }
+    },
+    {
+      "id": "btn2",
+      "type": "Button",
+      "title": "2",
+      "onPress": {
+        "type": "custom",
+        "callbackName": "guessNumber",
+        "args": {
+          "value": 2
+        }
+      }
+    },
+    {
+      "id": "btn3",
+      "type": "Button",
+      "title": "3",
+      "onPress": {
+        "type": "custom",
+        "callbackName": "guessNumber",
+        "args": {
+          "value": 3
+        }
+      }
+    }
+  ]
+}

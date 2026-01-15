@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@core/*": [
+        "src/core/*"
+      ],
+      "@screens/*": [
+        "src/screens/*"
+      ],
+      "@api/*": [
+        "src/services/api/*"
+      ],
+      "@fonts/*": [
+        "assets/fonts/*"
+      ],
+      "@auth/*": [
+        "src/screens/auth/*"
+      ],
+      "@profile/*": [
+        "src/screens/profile/*"
+      ],
+      "@translations/*": [
+        "src/translations/*"
+      ]
+    },
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "jsx": "react-native",
+    "strict": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "babel.config.js"
+  ],
+  "extends": "expo/tsconfig.base"
+}

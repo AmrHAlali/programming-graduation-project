@@ -1,0 +1,81 @@
+{
+  "id": "screen1",
+  "type": "Screen",
+  "components": [
+    {
+        "id": "text1",
+        "type": "Text",
+        "value": "Welcome To App Generator!",
+        "style": {
+            "fontSize": 30,
+            "color": "#90EE90",
+            "textAlign": "center",
+            "fontWeight": "bold"
+        }
+    },
+    {
+        "id": "text2",
+        "type": "Text",
+        "value": "Welcome To App Generator!",
+        "style": {
+            "fontSize": 30,
+            "color": "#90EE90",
+            "textAlign": "center",
+            "marginTop": "40%",
+            "fontWeight": "bold"
+        }
+    },
+    {
+        "id": "text3",
+        "type": "Text",
+        "value": "Welcome To App Generator!",
+        "style": {
+            "fontSize": 30,
+            "color": "#90EE90",
+            "textAlign": "center",
+            "marginTop": "40%",
+            "fontWeight": "bold"
+        }
+    },
+    {
+        "id": "text4",
+        "type": "Text",
+        "value": "Welcome To App Generator!",
+        "style": {
+            "fontSize": 30,
+            "color": "#90EE90",
+            "textAlign": "center",
+            "marginTop": "40%",
+            "fontWeight": "bold"
+        }
+    },
+    {
+        "id": "text5",
+        "type": "Text",
+        "value": "Welcome To App Generator!",
+        "style": {
+            "fontSize": 30,
+            "color": "#90EE90",
+            "textAlign": "center",
+            "marginTop": "40%",
+            "fontWeight": "bold"
+        }
+    },
+    {
+        "id": "text6",
+        "type": "Text",
+        "value": "Welcome To App Generator!",
+        "style": {
+            "fontSize": 10,
+            "color": "#90EE90",
+            "marginTop": "40%",
+            "fontWeight": "medium"
+        }
+    }
+  ],
+  "style": {
+    "backgroundColor": "#000",
+    "width": "50%",
+    "height": "40%"
+  }
+}
